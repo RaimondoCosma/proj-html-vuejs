@@ -1,18 +1,15 @@
 <script>
-import PageTitle from "./components/PageTitle.vue";
+import AppHeader from "./components/header/AppHeader.vue";
 
 export default {
   components: {
-    PageTitle,
+    AppHeader,
   },
 };
 </script>
 
 <template>
-  <div>
-    <PageTitle />
-    <font-awesome-icon icon="fa-solid fa-user-secret" />
-  </div>
+  <AppHeader />
 </template>
 
 <style lang="scss">
