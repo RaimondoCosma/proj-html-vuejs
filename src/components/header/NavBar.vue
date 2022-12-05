@@ -17,13 +17,4 @@ export default {
 li {
   margin-right: 2.5rem;
 }
-.btn {
-  background-color: var(--btn-color);
-  border-radius: 2.5rem;
-  padding: 0.625rem 1.875rem;
-  cursor: pointer;
-  a {
-    color: var(--lighter-color);
-  }
-}
 </style>

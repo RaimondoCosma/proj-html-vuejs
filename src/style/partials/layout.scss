@@ -5,3 +5,25 @@
   max-width: 83.3125rem;
   margin: auto;
 }
+
+/* ---------------------
+    BUTTONS
+----------------------*/
+.btn {
+  display: inline-block;
+  background-color: var(--btn-color);
+  border-radius: 2.5rem;
+  padding: 0.625rem 1.875rem;
+  cursor: pointer;
+  a {
+    color: var(--lighter-color);
+  }
+}
+
+.btn-secondary {
+  background-color: var(--primary-color);
+  border: 0.0625rem solid var(--secondary-color);
+  a {
+    color: var(--secondary-color);
+  }
+}

@@ -1,7 +1,13 @@
 /* ---------------------
     TYPOGRAPHY
 ----------------------*/
+body {
+  color: var(--secondary-color);
+}
 a {
   text-decoration: none;
   color: var(--secondary-color);
+}
+h1 {
+  font-size: 4rem;
 }
