@@ -1,35 +1,49 @@
 <script>
 import AppLogo from "./AppLogo.vue";
+import NavBar from "./NavBar.vue";
+
 export default {
   name: "AppHeader",
   components: {
     AppLogo,
+    NavBar,
   },
   data() {
     return {
       navbar: [
         {
-          link: "Home",
+          linkName: "Home",
+          isButton: false,
           active: false,
         },
         {
-          link: "Services",
+          linkName: "Services",
+          isButton: false,
           active: false,
         },
         {
-          link: "About",
+          linkName: "About",
+          isButton: false,
           active: false,
         },
         {
-          link: "Videos",
+          linkName: "Videos",
+          isButton: false,
           active: false,
         },
         {
-          link: "Blog",
+          linkName: "Blog",
+          isButton: false,
           active: false,
         },
         {
-          link: "Store",
+          linkName: "Store",
+          isButton: false,
+          active: false,
+        },
+        {
+          linkName: "Schedule a workout",
+          isButton: true,
           active: false,
         },
       ],
@@ -42,6 +56,15 @@ export default {
   <header>
     <section class="container nav">
       <AppLogo />
+      <ul>
+        <NavBar v-for="link in navbar" :link="link" />
+        <li>
+          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+        </li>
+      </ul>
     </section>
   </header>
 </template>
@@ -49,10 +72,20 @@ export default {
 <style lang="scss" scoped>
 header {
   height: 6.25rem;
+  padding: 25px 0;
   background-color: var(--primary-color);
   .nav {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    ul {
+      display: flex;
+      align-items: center;
+      list-style: none;
+      .fa-cart-shopping {
+        margin-right: 2.5rem;
+      }
+    }
   }
 }
 </style>
