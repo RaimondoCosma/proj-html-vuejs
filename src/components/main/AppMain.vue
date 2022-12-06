@@ -1,8 +1,9 @@
 <script>
 import { store } from "./../../store";
 import AppHero from "./hero/AppHero.vue";
-import AppCardMotivation from "./AppCardMotivation.vue";
-import AppMotivation from "./AppMotivation.vue";
+import AppCardMotivation from "./section-1/AppCardMotivation.vue";
+import AppMotivation from "./section-1/AppMotivation.vue";
+import AppEncourage from "./section-2/AppEncourage.vue";
 
 export default {
   name: "AppMain",
@@ -10,6 +11,7 @@ export default {
     AppHero,
     AppCardMotivation,
     AppMotivation,
+    AppEncourage,
   },
   data() {
     return {
@@ -29,6 +31,7 @@ export default {
     </div>
     <AppMotivation />
   </section>
+  <AppEncourage />
 </template>
 
 <style lang="scss" scoped>
