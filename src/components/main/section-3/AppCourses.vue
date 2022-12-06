@@ -1,9 +1,11 @@
 <script>
 import CoursesTop from "./CoursesTop.vue";
+import CoursesBottom from "./CoursesBottom.vue";
 export default {
   name: "AppCourses",
   components: {
     CoursesTop,
+    CoursesBottom,
   },
 };
 </script>
@@ -11,6 +13,7 @@ export default {
 <template>
   <section id="courses">
     <CoursesTop />
+    <CoursesBottom />
   </section>
 </template>
 
