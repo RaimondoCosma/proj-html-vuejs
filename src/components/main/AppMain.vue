@@ -7,6 +7,7 @@ import AppCourses from "./section-3/AppCourses.vue";
 import AppArticles from "./section-4/AppArticles.vue";
 import AppSuccess from "./section-5/AppSuccess.vue";
 import AppCollaboration from "./section-6/AppCollaboration.vue";
+import AppWod from "./section-7/AppWod.vue";
 
 export default {
   name: "AppMain",
@@ -18,6 +19,7 @@ export default {
     AppArticles,
     AppSuccess,
     AppCollaboration,
+    AppWod,
   },
   data() {
     return {
@@ -36,6 +38,7 @@ export default {
     <AppArticles />
     <AppSuccess />
     <AppCollaboration />
+    <AppWod />
   </main>
 </template>
 
