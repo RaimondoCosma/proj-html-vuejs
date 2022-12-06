@@ -17,8 +17,4 @@ export default {
   </section>
 </template>
 
-<style lang="scss" scoped>
-#courses {
-  height: 95rem;
-}
-</style>
+<style lang="scss" scoped></style>
