@@ -18,7 +18,7 @@ export default {
     <div class="img">
       <img
         :src="`/src/assets/img/section-2/${playlist.img}`"
-        alt="glutes workout"
+        :alt="playlist.title"
       />
       <div class="play-button">
         <i class="fa-solid fa-play"></i>

@@ -39,6 +39,7 @@ export const store = reactive({
       subtitle: "Shed those extra pound",
     },
   ],
+
   courses: [
     {
       img: "smartwatch.png",
@@ -63,6 +64,24 @@ export const store = reactive({
       description:
         "At laoreet senectus volutpat diam vel sed sed amet pellentesque. Lobortis ut aliquam risus purus. A tellus ut etiam.",
       link: "Schedule a workout",
+    },
+  ],
+
+  articles: [
+    {
+      img: "blog4-2x.jpg",
+      title: "The best protein shake",
+      subtitle: "By admin | November 26th 2019 | Gym",
+    },
+    {
+      img: "blog1-2x.jpg",
+      title: "Ultimate cardio workout",
+      subtitle: "By admin | November 26th 2019 | Gym",
+    },
+    {
+      img: "blog3-2x.jpg",
+      title: "New juices available now",
+      subtitle: "By admin | November 26th 2019 | Gym",
     },
   ],
 });
