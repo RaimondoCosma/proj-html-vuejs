@@ -111,4 +111,50 @@ export const store = reactive({
       link: "Visit Power Gym",
     },
   ],
+
+  socialLink: [
+    {
+      socialName: "facebook",
+      class: "fa-brands fa-facebook-f",
+    },
+    {
+      socialName: "twitter",
+      class: "fa-brands fa-twitter",
+    },
+    {
+      socialName: "youtube",
+      class: "fa-brands fa-youtube",
+    },
+    {
+      socialName: "instagram",
+      class: "fa-brands fa-instagram",
+    },
+    {
+      socialName: "linkedin",
+      class: "fa-brands fa-linkedin-in",
+    },
+  ],
+
+  posts: [
+    {
+      name: "The Best protein shake",
+      isAvailable: true,
+    },
+    {
+      name: "Ultimate cardio workout",
+      isAvailable: true,
+    },
+    {
+      name: "New juices available now",
+      isAvailable: true,
+    },
+    {
+      name: "Tips to find training partners",
+      isAvailable: true,
+    },
+    {
+      name: "20 best healty recipes",
+      isAvailable: true,
+    },
+  ],
 });
