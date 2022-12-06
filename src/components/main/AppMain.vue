@@ -5,6 +5,7 @@ import AppSectionMotivation from "./section-1/AppSectionMotivation.vue";
 import AppEncourage from "./section-2/AppEncourage.vue";
 import AppCourses from "./section-3/AppCourses.vue";
 import AppArticles from "./section-4/AppArticles.vue";
+import AppSuccess from "./section-5/AppSuccess.vue";
 
 export default {
   name: "AppMain",
@@ -14,6 +15,7 @@ export default {
     AppEncourage,
     AppCourses,
     AppArticles,
+    AppSuccess,
   },
   data() {
     return {
@@ -30,6 +32,7 @@ export default {
     <AppEncourage />
     <AppCourses />
     <AppArticles />
+    <AppSuccess />
   </main>
 </template>
 
