@@ -6,6 +6,7 @@ import AppEncourage from "./section-2/AppEncourage.vue";
 import AppCourses from "./section-3/AppCourses.vue";
 import AppArticles from "./section-4/AppArticles.vue";
 import AppSuccess from "./section-5/AppSuccess.vue";
+import AppCollaboration from "./section-6/AppCollaboration.vue";
 
 export default {
   name: "AppMain",
@@ -16,6 +17,7 @@ export default {
     AppCourses,
     AppArticles,
     AppSuccess,
+    AppCollaboration,
   },
   data() {
     return {
@@ -33,6 +35,7 @@ export default {
     <AppCourses />
     <AppArticles />
     <AppSuccess />
+    <AppCollaboration />
   </main>
 </template>
 
