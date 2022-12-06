@@ -25,8 +25,14 @@ export default {
           Curabitur non nulla sit amet nisl tempus convallis quis ac lectus
           dolor sit amet
         </p>
-        <span class="btn"><a href="#">Visit my YouTube channel</a></span>
-        <span class="btn btn-secondary"><a href="#">Buy Avada today</a></span>
+        <span class="btn"
+          ><a href="#"
+            ><i class="fa-brands fa-youtube"></i>Visit my YouTube channel</a
+          ></span
+        >
+        <span class="btn btn-secondary"
+          ><a href="#">Buy Avada today<i class="fa-solid fa-arrow-right"></i></a
+        ></span>
       </div>
       <div class="play-button">
         <i class="fa-solid fa-play"></i>
@@ -38,7 +44,7 @@ export default {
 <style lang="scss" scoped>
 .jumbotron {
   position: relative;
-  min-height: 41.875rem;
+  min-height: 42.5rem;
   padding: 8.125rem 0;
   background-image: linear-gradient(
       to right,
@@ -109,6 +115,13 @@ export default {
   }
   .btn {
     margin-right: 0.9375rem;
+
+    .fa-youtube {
+      margin-right: 0.625rem;
+    }
+    .fa-arrow-right {
+      margin-left: 0.625rem;
+    }
   }
 }
 .spot-left > * {
