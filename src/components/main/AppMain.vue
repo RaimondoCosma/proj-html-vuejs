@@ -24,11 +24,13 @@ export default {
 </script>
 
 <template>
-  <AppHero />
-  <AppSectionMotivation />
-  <AppEncourage />
-  <AppCourses />
-  <AppArticles />
+  <main>
+    <AppHero />
+    <AppSectionMotivation />
+    <AppEncourage />
+    <AppCourses />
+    <AppArticles />
+  </main>
 </template>
 
 <style lang="scss" scoped></style>
