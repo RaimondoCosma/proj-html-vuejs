@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-  <section class="jumbotron">
+  <section id="jumbotron">
     <div class="banner">
       <div class="banner-1">
         <i class="fa-solid fa-folder"></i>
@@ -42,7 +42,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-.jumbotron {
+#jumbotron {
   position: relative;
   min-height: 42.5rem;
   padding: 8.125rem 0;
@@ -53,6 +53,7 @@ export default {
     ),
     url("./../../../assets/img/slider82x-scaled.jpg");
   background-size: cover;
+  background-position: center;
   .banner {
     position: absolute;
     top: 3.125rem;

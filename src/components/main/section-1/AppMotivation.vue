@@ -13,7 +13,7 @@ export default {
     <span><i v-for="n in 3" class="fa-solid fa-chevron-up"></i></span>
     <div class="author">
       <a href="#"
-        ><img src="./../../assets/img/avatar-1-2x.jpg" alt="Brad Johnson"
+        ><img src="./../../../assets/img/avatar-1-2x.jpg" alt="Brad Johnson"
       /></a>
       <a href="#"><h4>Brad Jhonson</h4></a>
       <a href="#">Las Vegas</a>
@@ -24,6 +24,7 @@ export default {
 <style lang="scss" scoped>
 .container {
   text-align: center;
+  padding-bottom: 9.375rem;
 }
 h2 {
   font-size: 2.625rem;

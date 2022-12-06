@@ -20,6 +20,6 @@ export default {
 <style lang="scss" scoped>
 #encourage {
   background-image: var(--lighter-color);
-  margin-bottom: 9.375rem;
+  padding-bottom: 9.375rem;
 }
 </style>
