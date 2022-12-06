@@ -6,7 +6,7 @@ export default {
 
 <template>
   <div class="top-encourage-right">
-    <span>Tune up your workouts</span>
+    <span class="spot">Tune up your workouts</span>
     <h2>The best health & fitness advice online</h2>
     <div class="yt-reference">
       <img src="./../../../assets/img/section-2/unnamed.jpg" alt="logo" />
@@ -39,7 +39,7 @@ export default {
   width: 50%;
   color: var(--primary-color);
   padding: 0 8.4375rem;
-  span {
+  .spot {
     font-size: 1.5rem;
     color: var(--btn-color);
   }
@@ -65,6 +65,9 @@ export default {
   }
   .buttons {
     margin-top: 0.625rem;
+    a {
+      font-size: 0.875rem;
+    }
   }
   p {
     color: var(--light-black);

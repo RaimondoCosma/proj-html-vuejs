@@ -29,7 +29,7 @@ export default {
   padding: 7.1875rem 0;
   background-image: linear-gradient(
       to right,
-      var(--primary-color) 30%,
+      var(--primary-color) 40%,
       transparent 70%
     ),
     url("./../../../assets/img/section-3/banner1-2x.jpg");
