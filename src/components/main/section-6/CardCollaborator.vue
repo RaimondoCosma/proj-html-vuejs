@@ -29,6 +29,13 @@ export default {
 .card {
   width: calc(100% / 4 - 2.3438rem);
   text-align: center;
+  border-radius: 0 0 2.5rem 0;
+  transition: transform 0.3s linear, background-color 0.3s linear;
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    background-color: rgba(0, 0, 0, 0.05);
+  }
   @include media-breakpoint-up(md) {
     width: 80%;
     flex-shrink: 0;

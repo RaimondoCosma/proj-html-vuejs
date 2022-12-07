@@ -86,7 +86,7 @@ ul {
   }
   @include media-breakpoint-up(lg) {
     position: fixed;
-    right: -50%;
+    right: -55%;
     top: 6.25rem;
     display: flex;
     flex-direction: column;
