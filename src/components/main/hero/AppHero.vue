@@ -101,9 +101,15 @@ export default {
 .spot {
   display: flex;
   align-items: center;
+  @include media-breakpoint-up(sm) {
+    flex-direction: column;
+  }
 }
 .spot-left {
   width: 70%;
+  @include media-breakpoint-up(sm) {
+    order: 1;
+  }
   .certified {
     color: var(--spot-color);
     font-size: 1.625rem;
@@ -141,6 +147,9 @@ export default {
   position: relative;
   width: 30%;
   text-align: center;
+  @include media-breakpoint-up(sm) {
+    margin-bottom: 3.125rem;
+  }
   .fa-play {
     background-color: var(--lighter-color);
     color: var(--btn-color);

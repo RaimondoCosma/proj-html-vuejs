@@ -78,6 +78,12 @@ ul {
   display: flex;
   align-items: center;
   list-style: none;
+  a {
+    transition: color 0.2s linear;
+    &:hover {
+      color: var(--lighter-color);
+    }
+  }
   @include media-breakpoint-up(lg) {
     position: fixed;
     right: -50%;

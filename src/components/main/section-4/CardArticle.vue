@@ -41,6 +41,11 @@ export default {
   }
   .img {
     position: relative;
+    transition: transform 0.3s linear;
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.08);
+    }
   }
   h3 {
     padding: 1.875rem 0 0.9375rem;

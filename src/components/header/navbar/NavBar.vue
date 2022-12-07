@@ -16,6 +16,12 @@ export default {
 <style lang="scss" scoped>
 li {
   margin-right: 2.5rem;
+  a {
+    transition: color 0.2s linear;
+    &:hover {
+      color: var(--lighter-color);
+    }
+  }
   @include media-breakpoint-up(lg) {
     cursor: pointer;
     margin-right: 0;

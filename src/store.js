@@ -31,7 +31,7 @@ export const store = reactive({
     {
       img: "video7-2x.jpg",
       title: "Lift, firm & perk up",
-      subtitle: "Feel ypung again",
+      subtitle: "Feel young again",
     },
     {
       img: "video9-2x.jpg",
