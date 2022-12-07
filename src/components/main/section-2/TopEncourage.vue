@@ -23,5 +23,8 @@ export default {
   align-items: center;
   position: relative;
   top: -50px;
+  @include media-breakpoint-up(md) {
+    flex-direction: column;
+  }
 }
 </style>

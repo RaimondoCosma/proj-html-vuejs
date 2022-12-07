@@ -45,10 +45,16 @@ export default {
     padding: 2.5rem;
     border-radius: 50%;
     cursor: pointer;
+    @include media-breakpoint-up(md) {
+      padding: 1.25rem;
+    }
   }
   h3 {
     font-size: 2.125rem;
     color: var(--chevron-color);
+    @include media-breakpoint-up(md) {
+      font-size: 1.375rem;
+    }
   }
   span a {
     color: var(--lighter-color);

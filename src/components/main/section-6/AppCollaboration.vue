@@ -28,8 +28,14 @@ export default {
 <style lang="scss" scoped>
 #sponsor {
   padding: 7.5rem 0 10rem;
+  @include media-breakpoint-up(md) {
+    padding: 5rem 0;
+  }
 }
 .container {
   display: flex;
+  @include media-breakpoint-up(md) {
+    flex-direction: column;
+  }
 }
 </style>

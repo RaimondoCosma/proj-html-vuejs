@@ -36,6 +36,9 @@ section {
     top: -4.875rem;
     display: flex;
     align-items: center;
+    @include media-breakpoint-up(md) {
+      flex-direction: column;
+    }
   }
 }
 </style>

@@ -65,10 +65,10 @@ export default {
   <ul :class="{ 'show-ul': this.isActive }">
     <NavBar v-for="link in navbar" :link="link" />
     <li>
-      <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+      <a href="#"><font-awesome-icon icon="fa-solid fa-cart-shopping" /></a>
     </li>
     <li>
-      <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+      <a href="#"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></a>
     </li>
   </ul>
 </template>

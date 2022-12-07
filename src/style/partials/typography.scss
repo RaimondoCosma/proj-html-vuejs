@@ -13,9 +13,21 @@ h1 {
   font-size: 3.75rem;
   color: var(--lighter-color);
   font-weight: 500;
+  @include media-breakpoint-up(lg) {
+    font-size: 3.125rem;
+  }
+  @include media-breakpoint-up(sm) {
+    font-size: 1.875rem;
+  }
 }
 h2 {
   font-size: 3.125rem;
   font-weight: 500;
   color: var(--lighter-color);
+  @include media-breakpoint-up(lg) {
+    font-size: 2.5rem;
+  }
+  @include media-breakpoint-up(sm) {
+    font-size: 1.5rem;
+  }
 }

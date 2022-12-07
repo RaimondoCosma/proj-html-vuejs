@@ -31,6 +31,14 @@ export default {
 h2 {
   font-size: 2.625rem;
   padding: 3.125rem 10rem 2.1875rem;
+  @include media-breakpoint-up(lg) {
+    padding: 1.875rem 5rem 1.5625rem;
+    font-size: 2.1875rem;
+  }
+  @include media-breakpoint-up(sm) {
+    padding: 1.25rem 3.125rem 0.9375rem;
+    font-size: 1.5rem;
+  }
 }
 .author {
   display: flex;

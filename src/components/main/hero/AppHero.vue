@@ -107,9 +107,15 @@ export default {
   .certified {
     color: var(--spot-color);
     font-size: 1.625rem;
+    @include media-breakpoint-up(sm) {
+      font-size: 1.125rem;
+    }
   }
   p {
     font-size: 1.25rem;
+    @include media-breakpoint-up(sm) {
+      font-size: 1rem;
+    }
   }
   .fa-chevron-up {
     color: var(--chevron-color);
@@ -141,6 +147,9 @@ export default {
     padding: 2.5rem;
     border-radius: 50%;
     cursor: pointer;
+    @include media-breakpoint-up(sm) {
+      padding: 1.25rem;
+    }
   }
 }
 </style>

@@ -33,6 +33,9 @@ export default {
   }
   p {
     font-size: 1.25rem;
+    @include media-breakpoint-up(md) {
+      font-size: 1rem;
+    }
   }
   .fa-chevron-up {
     color: var(--chevron-color);

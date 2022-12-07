@@ -36,8 +36,18 @@ export default {
   color: var(--primary-color);
   border-radius: 0 0 2.5rem 0;
   overflow: hidden;
+  @include media-breakpoint-up(md) {
+    width: 80%;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    align-self: center;
+    margin-bottom: 1.25rem;
+  }
   &:not(:last-child) {
     margin-right: 3.125rem;
+    @include media-breakpoint-up(md) {
+      margin-right: 0;
+    }
   }
   .img {
     position: relative;

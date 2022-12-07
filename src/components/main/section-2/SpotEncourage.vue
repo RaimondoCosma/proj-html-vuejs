@@ -42,6 +42,12 @@ export default {
   width: 50%;
   color: var(--primary-color);
   padding: 0 8.4375rem;
+  @include media-breakpoint-up(lg) {
+    padding: 1.25rem 3.125rem;
+  }
+  @include media-breakpoint-up(md) {
+    width: 80%;
+  }
   .spot {
     font-size: 1.5rem;
     color: var(--btn-color);

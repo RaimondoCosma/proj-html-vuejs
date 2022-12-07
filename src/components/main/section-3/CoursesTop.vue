@@ -40,9 +40,16 @@ export default {
 }
 .spot {
   width: 60%;
+  @include media-breakpoint-up(md) {
+    width: 100%;
+    padding: 0 1.25rem;
+  }
   .certified {
     color: var(--spot-color);
     font-size: 1.625rem;
+    @include media-breakpoint-up(md) {
+      font-size: 1.25rem;
+    }
   }
   h2 {
     padding: 2.5rem 0;
@@ -55,6 +62,9 @@ export default {
   }
   p {
     font-size: 1.25rem;
+    @include media-breakpoint-up(md) {
+      font-size: 1rem;
+    }
   }
   input {
     width: 50%;

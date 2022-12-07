@@ -7,6 +7,8 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 /* import specific icons */
 import {
+  faCartShopping,
+  faMagnifyingGlass,
   faChevronUp,
   faChevronRight,
   faFolder,
@@ -23,6 +25,8 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 /* add icons to the library */
 library.add(
+  faCartShopping,
+  faMagnifyingGlass,
   faChevronUp,
   faChevronRight,
   faFolder,

@@ -23,6 +23,9 @@ export default {
   flex-shrink: 0;
   border-radius: 0 0 2.5rem 0;
   overflow: hidden;
+  @include media-breakpoint-up(md) {
+    width: 80%;
+  }
   .play-button {
     position: absolute;
     top: 50%;

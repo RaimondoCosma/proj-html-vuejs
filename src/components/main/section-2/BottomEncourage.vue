@@ -45,5 +45,8 @@ export default {
 }
 .playlist {
   display: flex;
+  @include media-breakpoint-up(md) {
+    flex-direction: column;
+  }
 }
 </style>

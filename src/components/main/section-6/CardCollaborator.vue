@@ -19,7 +19,7 @@ export default {
       {{ collaborator.description }}
     </p>
     <span class="link"
-      >{{ collaborator.link }}
+      ><a href="#">{{ collaborator.link }}</a>
       <font-awesome-icon icon="fa-solid fa-chevron-right"
     /></span>
   </div>
@@ -29,17 +29,32 @@ export default {
 .card {
   width: calc(100% / 4 - 2.3438rem);
   text-align: center;
+  @include media-breakpoint-up(md) {
+    width: 80%;
+    flex-shrink: 0;
+    margin-bottom: 2.5rem;
+    align-self: center;
+  }
   &:not(:last-child) {
     margin-right: 3.125rem;
+    @include media-breakpoint-up(md) {
+      margin-right: 0;
+    }
   }
   & > * {
     margin-bottom: 2.5rem;
+    @include media-breakpoint-up(md) {
+      margin-bottom: 1.25rem;
+    }
   }
   img {
     width: 60%;
   }
   span {
     display: inline-block;
+    a {
+      color: inherit;
+    }
     .fa-chevron-up {
       color: var(--btn-color);
     }

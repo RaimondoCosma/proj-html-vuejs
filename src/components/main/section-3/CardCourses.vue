@@ -34,11 +34,21 @@ export default {
   border-radius: 0.25rem;
   cursor: pointer;
   transition: transform 0.3s linear;
+  @include media-breakpoint-up(md) {
+    width: 80%;
+    flex-shrink: 0;
+    margin-bottom: 1.25rem;
+    align-self: center;
+    padding: 3.125rem 2.8125rem;
+  }
   &:hover {
     transform: scale(1.04);
   }
   &:not(:last-child) {
     margin-right: 3.125rem;
+    @include media-breakpoint-up(md) {
+      margin-right: 0;
+    }
   }
   img {
     filter: contrast(0);
@@ -47,18 +57,31 @@ export default {
   }
   .image-title {
     padding: 2.1875rem 0 3.125rem;
+    @include media-breakpoint-up(md) {
+      padding: 1.25rem 2.1875rem;
+    }
   }
   h3 {
     color: var(--lighter-color);
     font-size: 1.625rem;
+    @include media-breakpoint-up(md) {
+      font-size: 1.25rem;
+    }
   }
   .sub-title {
     font-size: 1.5rem;
     color: var(--chevron-color);
+    @include media-breakpoint-up(md) {
+      font-size: 1.125rem;
+    }
   }
   p {
     font-size: 1.125rem;
     padding-bottom: 3.125rem;
+    @include media-breakpoint-up(md) {
+      font-size: 1rem;
+      padding-bottom: 2.1875rem;
+    }
   }
   a {
     color: var(--lighter-color);

@@ -28,5 +28,8 @@ export default {
 }
 .container {
   display: flex;
+  @include media-breakpoint-up(md) {
+    flex-direction: column;
+  }
 }
 </style>

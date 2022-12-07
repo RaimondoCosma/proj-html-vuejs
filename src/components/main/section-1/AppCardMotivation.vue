@@ -37,8 +37,16 @@ export default {
   border-radius: 0.3125rem 0.3125rem 2.5rem 0.3125rem;
   overflow: hidden;
   transition: transform 0.3s linear;
+  @include media-breakpoint-up(md) {
+    width: 80%;
+    flex-shrink: 0;
+    margin-bottom: 1.25rem;
+  }
   &:not(:last-child) {
     margin-right: 3.125rem;
+    @include media-breakpoint-up(md) {
+      margin-right: 0;
+    }
   }
   &:hover {
     transform: scale(1.05);
@@ -65,10 +73,16 @@ export default {
     h3 {
       font-size: 1.75rem;
       padding-top: 1.25rem;
+      @include media-breakpoint-up(lg) {
+        font-size: 1.375rem;
+      }
     }
     .sub-title {
       font-size: 1.25rem;
       color: var(--chevron-color);
+      @include media-breakpoint-up(lg) {
+        font-size: 1rem;
+      }
     }
   }
 }
