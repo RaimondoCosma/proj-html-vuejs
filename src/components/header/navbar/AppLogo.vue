@@ -6,7 +6,7 @@ export default {
 
 <template>
   <div class="logo">
-    <a href="#"><img src="./../../assets/img/logo/logo.png" alt="" /></a>
+    <a href="#"><img src="./../../../assets/img/logo/logo.png" alt="logo" /></a>
   </div>
 </template>
 

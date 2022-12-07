@@ -10,7 +10,7 @@ $breakpoints: (
   xxl: 1400px,
 );
 
-@mixin media-breackpoint-up($size) {
+@mixin media-breakpoint-up($size) {
   $value: map-get($breakpoints, $size);
   @media screen and (max-width: $value) {
     @content;

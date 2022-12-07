@@ -1,53 +1,12 @@
 <script>
-import AppLogo from "./AppLogo.vue";
-import NavBar from "./NavBar.vue";
+import AppLogo from "./navbar/AppLogo.vue";
+import HeaderNav from "./navbar/HeaderNav.vue";
 
 export default {
   name: "AppHeader",
   components: {
     AppLogo,
-    NavBar,
-  },
-  data() {
-    return {
-      navbar: [
-        {
-          linkName: "Home",
-          isButton: false,
-          active: false,
-        },
-        {
-          linkName: "Services",
-          isButton: false,
-          active: false,
-        },
-        {
-          linkName: "About",
-          isButton: false,
-          active: false,
-        },
-        {
-          linkName: "Videos",
-          isButton: false,
-          active: false,
-        },
-        {
-          linkName: "Blog",
-          isButton: false,
-          active: false,
-        },
-        {
-          linkName: "Store",
-          isButton: false,
-          active: false,
-        },
-        {
-          linkName: "Schedule a workout",
-          isButton: true,
-          active: false,
-        },
-      ],
-    };
+    HeaderNav,
   },
 };
 </script>
@@ -56,21 +15,16 @@ export default {
   <header>
     <section class="container nav">
       <AppLogo />
-      <ul>
-        <NavBar v-for="link in navbar" :link="link" />
-        <li>
-          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-        </li>
-        <li>
-          <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-        </li>
-      </ul>
+      <HeaderNav />
     </section>
   </header>
 </template>
 
 <style lang="scss" scoped>
 header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
   height: 6.25rem;
   padding: 25px 0;
   background-color: var(--primary-color);
@@ -78,14 +32,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    ul {
-      display: flex;
-      align-items: center;
-      list-style: none;
-      .fa-cart-shopping {
-        margin-right: 2.5rem;
-      }
-    }
   }
 }
 </style>
