@@ -8,13 +8,14 @@ export default {
   <section id="wod">
     <div class="container-small">
       <div class="play-button">
-        <i class="fa-solid fa-play"></i>
+        <font-awesome-icon icon="fa-solid fa-play" />
       </div>
       <h2>Crossfit workout of the day</h2>
       <h3>November 15th, 2019</h3>
       <span
         ><a href="#"
-          >View all videos <i class="fa-solid fa-arrow-right-long"></i></a
+          >View all videos
+          <font-awesome-icon icon="fa-solid fa-arrow-right-long" /></a
       ></span>
     </div>
   </section>

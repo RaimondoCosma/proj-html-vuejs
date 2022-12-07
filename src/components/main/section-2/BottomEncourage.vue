@@ -20,7 +20,8 @@ export default {
       <h3>Featured playlists</h3>
       <span
         ><a href="#"
-          >Views all videos <i class="fa-solid fa-chevron-right"></i></a
+          >Views all videos
+          <font-awesome-icon icon="fa-solid fa-chevron-right" /></a
       ></span>
     </div>
     <div class="playlist">

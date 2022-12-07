@@ -15,7 +15,7 @@ export default {
     <h3>RECENT POSTS</h3>
     <ul>
       <li v-for="post in store.posts">
-        <i class="fa-solid fa-chevron-right"></i> {{ post.name
+        <font-awesome-icon icon="fa-solid fa-chevron-right" /> {{ post.name
         }}<a href="#"></a>
       </li>
     </ul>

@@ -19,8 +19,8 @@ export default {
         {{ course.description }}
       </p>
       <a href="#"
-        >{{ course.link }} <i class="fa-solid fa-chevron-right"></i
-      ></a>
+        >{{ course.link }} <font-awesome-icon icon="fa-solid fa-chevron-right"
+      /></a>
     </div>
   </div>
 </template>

@@ -12,13 +12,16 @@ export default {
     <div class="img">
       <img :src="`/src/assets/img/section-6/${collaborator.img}`" alt="logo" />
     </div>
-    <span><i v-for="n in 3" class="fa-solid fa-chevron-up"></i></span>
+    <span
+      ><font-awesome-icon v-for="n in 3" icon="fa-solid fa-chevron-up"
+    /></span>
     <p>
       {{ collaborator.description }}
     </p>
     <span class="link"
-      >{{ collaborator.link }} <i class="fa-solid fa-chevron-right"></i
-    ></span>
+      >{{ collaborator.link }}
+      <font-awesome-icon icon="fa-solid fa-chevron-right"
+    /></span>
   </div>
 </template>
 
@@ -37,7 +40,7 @@ export default {
   }
   span {
     display: inline-block;
-    i {
+    .fa-chevron-up {
       color: var(--btn-color);
     }
   }
@@ -47,7 +50,7 @@ export default {
   .link {
     color: var(--primary-color);
     font-weight: bold;
-    i {
+    .fa-chevron-right {
       color: inherit;
       font-size: 0.75rem;
     }

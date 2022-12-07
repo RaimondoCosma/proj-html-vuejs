@@ -10,7 +10,9 @@ export default {
       "How you respond to the challenge in the second half will determine what
       you become after the game, whether you are a winner or a loser."
     </h2>
-    <span><i v-for="n in 3" class="fa-solid fa-chevron-up"></i></span>
+    <span
+      ><font-awesome-icon v-for="n in 3" icon="fa-solid fa-chevron-up"
+    /></span>
     <div class="author">
       <a href="#"
         ><img src="./../../../assets/img/avatar-1-2x.jpg" alt="Brad Johnson"
@@ -29,7 +31,6 @@ export default {
 h2 {
   font-size: 2.625rem;
   padding: 3.125rem 10rem 2.1875rem;
-  color: var(--lighter-color);
 }
 .author {
   display: flex;

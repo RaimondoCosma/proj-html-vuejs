@@ -18,8 +18,11 @@ export default {
       Pellentesque consectetur amet purus ultrices mauris.
     </p>
     <a href="#"
-      ><i v-for="social in store.socialLink" :class="social.class"></i
-    ></a>
+      ><font-awesome-icon
+        class="icons"
+        v-for="social in store.socialLink"
+        :icon="social.icon"
+    /></a>
   </div>
 </template>
 
@@ -33,7 +36,7 @@ export default {
 }
 .social a {
   color: var(--spot-color);
-  i {
+  .icons {
     display: inline-block;
     margin-right: 0.9375rem;
   }

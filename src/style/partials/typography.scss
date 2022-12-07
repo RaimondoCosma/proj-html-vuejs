@@ -2,6 +2,7 @@
     TYPOGRAPHY
 ----------------------*/
 body {
+  font-family: "Barlow", sans-serif;
   color: var(--secondary-color);
 }
 a {
@@ -9,9 +10,12 @@ a {
   color: var(--secondary-color);
 }
 h1 {
-  font-size: 4rem;
+  font-size: 3.75rem;
+  color: var(--lighter-color);
+  font-weight: 500;
 }
 h2 {
-  font-size: 3.25rem;
+  font-size: 3.125rem;
+  font-weight: 500;
   color: var(--lighter-color);
 }

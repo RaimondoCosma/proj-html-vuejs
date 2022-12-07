@@ -14,7 +14,9 @@ export default {
         <small>ThemeFusion</small>
         <div class="buttons">
           <span class="btn-small-primary">
-            <a href="#"><i class="fa-brands fa-youtube"></i>You Tube</a>
+            <a href="#"
+              ><font-awesome-icon icon="fa-brands fa-youtube" />You Tube</a
+            >
           </span>
           <span class="btn-small-secondary">
             <a href="#">999+</a>
@@ -28,7 +30,8 @@ export default {
     </p>
     <div class="btn-red">
       <a href="#"
-        ><i class="fa-brands fa-youtube"></i>Visit my YouTube channel</a
+        ><font-awesome-icon icon="fa-brands fa-youtube" />Visit my YouTube
+        channel</a
       >
     </div>
   </div>
@@ -45,7 +48,7 @@ export default {
   }
   h2 {
     padding: 3.125rem 0;
-    font-size: 3.5rem;
+    color: var(--primary-color);
   }
   .yt-reference {
     display: flex;

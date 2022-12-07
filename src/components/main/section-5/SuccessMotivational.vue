@@ -9,14 +9,18 @@ export default {
     <h2>
       "I've failed over and over again in my life. And that is why I succeed."
     </h2>
-    <span v-for="n in 3"><i class="fa-solid fa-chevron-up"></i></span>
+    <span
+      ><font-awesome-icon v-for="n in 3" icon="fa-solid fa-chevron-up"
+    /></span>
     <p>
       Arcu auctor gravida nisl, congue sit nisi tincidunt eget proin. In lacinia
       lacus donec sed massa in ipsum eros, tristique. Gravida suspendisse etiam
       in iaculis
     </p>
     <span class="btn"
-      ><a href="#">Buy Avada today <i class="fa-solid fa-chevron-right"></i></a
+      ><a href="#"
+        >Buy Avada today
+        <font-awesome-icon icon="fa-solid fa-chevron-right" /></a
     ></span>
   </div>
 </template>
@@ -26,9 +30,6 @@ export default {
   text-align: center;
   & > * {
     margin-bottom: 2.5rem;
-  }
-  h2 {
-    color: var(--lighter-color);
   }
   p {
     font-size: 1.25rem;

@@ -115,23 +115,23 @@ export const store = reactive({
   socialLink: [
     {
       socialName: "facebook",
-      class: "fa-brands fa-facebook-f",
+      icon: "fa-brands fa-facebook-f",
     },
     {
       socialName: "twitter",
-      class: "fa-brands fa-twitter",
+      icon: "fa-brands fa-twitter",
     },
     {
       socialName: "youtube",
-      class: "fa-brands fa-youtube",
+      icon: "fa-brands fa-youtube",
     },
     {
       socialName: "instagram",
-      class: "fa-brands fa-instagram",
+      icon: "fa-brands fa-instagram",
     },
     {
       socialName: "linkedin",
-      class: "fa-brands fa-linkedin-in",
+      icon: "fa-brands fa-linkedin-in",
     },
   ],
 

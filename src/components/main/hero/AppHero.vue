@@ -8,7 +8,7 @@ export default {
   <section id="jumbotron">
     <div class="banner">
       <div class="banner-1">
-        <i class="fa-solid fa-folder"></i>
+        <font-awesome-icon icon="fa-solid fa-folder" />
         <small>Demos</small>
       </div>
       <div class="banner-2">
@@ -20,22 +20,27 @@ export default {
       <div class="spot-left">
         <span class="certified">Certified fitness professional</span>
         <h1>Take control of your health</h1>
-        <span v-for="n in 3"><i class="fa-solid fa-chevron-up"></i></span>
+        <span
+          ><font-awesome-icon v-for="n in 3" icon="fa-solid fa-chevron-up"
+        /></span>
         <p>
           Curabitur non nulla sit amet nisl tempus convallis quis ac lectus
           dolor sit amet
         </p>
         <span class="btn"
           ><a href="#"
-            ><i class="fa-brands fa-youtube"></i>Visit my YouTube channel</a
+            ><font-awesome-icon icon="fa-brands fa-youtube" />Visit my YouTube
+            channel</a
           ></span
         >
         <span class="btn btn-secondary"
-          ><a href="#">Buy Avada today<i class="fa-solid fa-arrow-right"></i></a
+          ><a href="#"
+            >Buy Avada today<font-awesome-icon
+              icon="fa-solid fa-arrow-right" /></a
         ></span>
       </div>
       <div class="play-button">
-        <i class="fa-solid fa-play"></i>
+        <font-awesome-icon icon="fa-solid fa-play" />
       </div>
     </div>
   </section>
@@ -98,12 +103,10 @@ export default {
   align-items: center;
 }
 .spot-left {
+  width: 70%;
   .certified {
     color: var(--spot-color);
     font-size: 1.625rem;
-  }
-  h1 {
-    color: var(--lighter-color);
   }
   p {
     font-size: 1.25rem;
@@ -130,7 +133,7 @@ export default {
 }
 .play-button {
   position: relative;
-  width: 50%;
+  width: 30%;
   text-align: center;
   .fa-play {
     background-color: var(--lighter-color);

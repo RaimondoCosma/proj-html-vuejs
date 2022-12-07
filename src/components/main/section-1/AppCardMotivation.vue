@@ -20,7 +20,9 @@ export default {
       <img :src="`/src/assets/img/offerts/${offert.img}`" :alt="offert.title" />
 
       <div class="spot-image">
-        <span><i v-for="n in 3" class="fa-solid fa-chevron-up"></i></span>
+        <span
+          ><font-awesome-icon v-for="n in 3" icon="fa-solid fa-chevron-up"
+        /></span>
         <h3>{{ offert.title }}</h3>
         <span class="sub-title">{{ offert.subtitle }}</span>
       </div>

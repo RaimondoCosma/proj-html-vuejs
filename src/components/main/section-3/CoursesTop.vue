@@ -10,7 +10,9 @@ export default {
       <div class="spot">
         <span class="certified">Join our mailing list today</span>
         <h2>Insider offers & flash sales in your inbox every week</h2>
-        <span v-for="n in 3"><i class="fa-solid fa-chevron-up"></i></span>
+        <span
+          ><font-awesome-icon v-for="n in 3" icon="fa-solid fa-chevron-up"
+        /></span>
         <form>
           <input type="text" name="email" id="email" />
           <button type="submit"><div class="btn">Subscribe</div></button>
@@ -43,8 +45,6 @@ export default {
     font-size: 1.625rem;
   }
   h2 {
-    color: var(--lighter-color);
-    font-size: 2.5rem;
     padding: 2.5rem 0;
   }
   .fa-chevron-up {

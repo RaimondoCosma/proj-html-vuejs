@@ -21,7 +21,7 @@ export default {
         :alt="playlist.title"
       />
       <div class="play-button">
-        <i class="fa-solid fa-play"></i>
+        <font-awesome-icon icon="fa-solid fa-play" />
       </div>
     </div>
     <h3>{{ playlist.title }}</h3>

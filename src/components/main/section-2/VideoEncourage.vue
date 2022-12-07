@@ -11,7 +11,7 @@ export default {
       alt="video-crunch"
     />
     <div class="play-button">
-      <i class="fa-solid fa-play"></i>
+      <font-awesome-icon icon="fa-solid fa-play" />
     </div>
   </div>
 </template>
